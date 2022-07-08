@@ -164,7 +164,7 @@ hr {
 
  
 }
-.cardContent:hover{
+.cardContent:hover, .ratingCont:hover{
     box-shadow: 2px 2px 5px grey;
 }
 .arrow{
@@ -174,4 +174,36 @@ hr {
 }
 
 /* CUSTOMER REVIEWS */
-.rat
+
+.ratingCards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ratingCont{
+   
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+    
+}
+.stars>.fa{
+    font-size: 42px;
+    color: #ED661F;
+}
+.ratingCont p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.below{
+    display: flex;
+    margin-top: 40px;
+}
+.below span{
+    padding: 0 30px 0 30px;
+    font-weight: 700;
+}
+
