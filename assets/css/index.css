@@ -7,12 +7,8 @@ body{
     font-family:  "Poppins",'Inter' ;
 }
 .container{
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 85%;
-   min-height: fit-content;
+ 
+   height: 85vh;
     background-image: url("/assets/images/image\ 1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -36,8 +32,8 @@ a{
     color: #FFFFFF;
 }
 .logo{
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
 }
 nav>ul{
 
@@ -84,6 +80,7 @@ nav>button{
 }
 .content{
     max-width: 650px;
+    min-width: 400px;
     margin-right: 30px;
 }
 .content>h1{
@@ -94,4 +91,27 @@ nav>button{
     padding: 20px;
     font-size: 1.4rem;
     margin-top: 10px;
+}
+
+/* DETAILS SECTION */
+.details{
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    right: 200px;
+    bottom: 150px;
+    box-shadow: 1px 2px 5px grey; 
+    
+   
+}
+.detailsCont{
+    padding: 25px; 
+}
+.detailsCont p{
+    font-weight: 750;
+}
+
+.detailsCont p:first-child{
+    text-align: center;
 }
