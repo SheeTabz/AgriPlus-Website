@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins, Inter ;
+    font-family:  "Poppins",'Inter' ;
 }
 .container{
    position: absolute;
@@ -12,9 +12,8 @@ body{
    bottom: 0;
    left: 0;
    right: 0;
-   height: 80%;
+   height: 85%;
     background-image: url("/assets/images/image\ 1.png");
-   background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -28,6 +27,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 40px;
 }
 
 a{
@@ -37,7 +37,6 @@ a{
 .logo{
     font-size: 1.8rem;
     font-weight: 700;
-    margin-left: 30px;
 }
 nav>ul{
 
@@ -50,16 +49,17 @@ nav>ul>li{
     font-weight: bolder;
 
 }
+li>a:hover{
+    text-decoration: 3px underline solid #ED661F;
+}
 .login{
     font-size: 1.3rem;
     font-weight: bolder; 
-    margin-right: 10px;
+    margin-right: 20px;
 }
-.home{
-    border-bottom: 3px solid #ED661F;
-   
-    
-}
+/* .rightnav{
+    margin-right: 30px;
+} */
 button{
     color: #FFFFFF;
     padding: 12px;
