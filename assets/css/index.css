@@ -71,12 +71,12 @@ nav>button{
 
 /* HOME SECTION */
 .containers{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: c;
    /* max-height: 60%; */
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .content{
     max-width: 650px;
@@ -97,21 +97,39 @@ nav>button{
 .details{
     background-color: #FFFFFF;
     display: flex;
-    position: absolute;
-    justify-content: space-between;
-    right: 200px;
-    bottom: 150px;
-    box-shadow: 1px 2px 5px grey; 
-    
+    box-shadow: 1px 2px 5px grey;
+    margin-top: -100px; 
+    width: 650px;
+    margin-left:54% ;
+
    
 }
 .detailsCont{
-    padding: 25px; 
+    padding: 20px; 
 }
 .detailsCont p{
     font-weight: 750;
 }
-
 .detailsCont p:first-child{
     text-align: center;
+}
+
+/* WHY WE EXIST  */
+#exist {
+    
+    font-family: 'Inter','Poppins';
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+#exist .content{
+    margin-right: 70px;
+}
+#exist h1{
+    font-size: 1.4rem;
+   
+}
+.horizontal{
+    width: 50px;
+    border-bottom:3px solid #ED661F;
 }
