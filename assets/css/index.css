@@ -71,7 +71,7 @@ nav>button{
 
 /* HOME SECTION */
 .containers{
-    width: 70%;
+    width: 75%;
     margin: auto;
     display: flex;
     align-items: c;
@@ -120,7 +120,7 @@ nav>button{
     font-family: 'Inter','Poppins';
     width: 70%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 #exist .content{
     margin-right: 70px;
@@ -133,4 +133,36 @@ nav>button{
     width: 50px;
     border-bottom:3px solid #ED661F;
     margin-top: 5px;
+}
+
+
+/* OUR PRODUCTS SECTION */
+
+.products{
+    /* background-color: crimson; */
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+}
+.prodHead{
+    text-align: center;
+}
+hr {
+    border: 2px solid #ED661F;
+    width: 60px;
+}
+.cards{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardContent{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+ 
+}
+.cardContent:hover{
+    box-shadow: 2px 2px 5px grey;
 }
