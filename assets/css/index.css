@@ -46,7 +46,7 @@ nav>ul>li{
     font-weight: bolder;
 
 }
-li>a:hover{
+li>a:hover, .arrow:hover{
     text-decoration: 3px underline solid #ED661F;
 }
 .login{
@@ -165,4 +165,9 @@ hr {
 }
 .cardContent:hover{
     box-shadow: 2px 2px 5px grey;
+}
+.arrow{
+   display: flex;
+   justify-content: flex-end;
+   cursor: pointer;
 }
