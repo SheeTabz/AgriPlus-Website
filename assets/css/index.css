@@ -48,6 +48,7 @@ nav>ul>li{
 }
 li>a:hover, .arrow:hover{
     text-decoration: 3px underline solid #ED661F;
+    transition: 2s;
 }
 .login{
     font-size: 1.1rem;
@@ -171,3 +172,6 @@ hr {
    justify-content: flex-end;
    cursor: pointer;
 }
+
+/* CUSTOMER REVIEWS */
+.rat
