@@ -17,7 +17,6 @@ body{
   
 }
 /* NAV BAR DESIGN */
-
 nav{
     background-color: #000000;
     color: #FFFFFF;
@@ -28,7 +27,17 @@ nav{
     align-items: center;
     padding: 0px 40px;
 }
-
+nav>ul{
+    display: flex;
+  }
+  nav>ul>li{
+      
+      display: inline-block;
+      margin-right: 40px;
+      font-size: 1.1rem;
+      font-weight: bolder;
+  
+  }
 a{
     text-decoration: none;
     color: #FFFFFF;
@@ -37,17 +46,7 @@ a{
     font-size: 2rem;
     font-weight: 900;
 }
-nav>ul{
-  display: flex;
-}
-nav>ul>li{
-    
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 1.1rem;
-    font-weight: bolder;
 
-}
 li>a:hover, .arrow:hover{
     text-decoration: 3px underline solid #ED661F;
     transition: 1s;
