@@ -254,8 +254,7 @@ footer{
     justify-content: space-between;
     padding: 40px 30px;
 }
-.leftSec{
-}
+
 .socialIcons .fa-twitter,.fa-facebook-f, .fa-instagram {
     background-color: #E5E5E5;
     border-radius: 30px;
@@ -313,16 +312,7 @@ footer>p{
         font-size: 1.4rem;
         font-weight: 900;
     }
-    .rightnav{
-       
-    }
-    .details{
-       
-       
-        width: 100%;     
     
-       
-    }
     footer{
         width: 100%;
         margin: auto;  
@@ -344,8 +334,10 @@ footer>p{
         
         display: flex;
         margin-top: -100px; 
-        width: 600px;
-        margin-left: 40%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     .content>h1{
         font-size: 1.5rem;
@@ -362,7 +354,15 @@ footer>p{
         font-weight: 650;
         border: none; 
     }
-    
+    .details{
+        
+        display: flex;
+        margin-top: -100px; 
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
     .footDet{
         width: 100%;
        justify-content: space-between;
