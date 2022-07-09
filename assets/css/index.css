@@ -294,3 +294,35 @@ footer>p{
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-height:900px){
+    footer{
+        width: 100%;
+        margin: auto;  
+    }
+    .intouch{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;   
+    }
+    .containers>#home{
+        width: 80%;
+        margin: auto;
+    }
+    #home>.image>img{
+        height: 150px;
+        
+    }
+    .details{
+        
+        display: flex;
+        margin-top: -100px; 
+        width: 500px;
+        margin-left: 20%;
+    }
+    .content>h1{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
