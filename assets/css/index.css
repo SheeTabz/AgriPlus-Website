@@ -58,7 +58,7 @@ li>a:hover, .arrow:hover{
 /* .rightnav{
     margin-right: 30px;
 } */
-button{
+.button{
     color: #FFFFFF;
     padding: 12px;
     background-color: #ED661F;
@@ -235,3 +235,5 @@ hr {
     padding: 15px 40px;
     margin-left: 0px;
 }
+
+/* FOOTER SECTION */
