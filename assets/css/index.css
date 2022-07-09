@@ -438,8 +438,10 @@ footer>p{
         position: absolute;
         z-index: 1;
     }
+    .container{
+        height: 95vh;
+    }
     #home>.content, #exist>.content{
-        
         width: 100%;
         min-width: 50px;
     }
