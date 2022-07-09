@@ -407,6 +407,9 @@ footer>p{
         padding: 0 10px 0 20px;
         font-weight: 600;
     }
+    .intouch{
+        width: 100%;
+    }
     .footDet{
         width: 100%;
        justify-content: space-between;
@@ -438,11 +441,24 @@ footer>p{
         position: absolute;
         z-index: 1;
     }
-    .container{
-        height: 95vh;
-    }
+    
     #home>.content, #exist>.content{
         width: 100%;
         min-width: 50px;
+        max-width: 350px;
     }
+    .content{
+        margin: 0;
+    }
+    .containers{
+        width: 100%;
+       
+    }
+    .image>img{
+       
+        max-height: 150px;
+        }
+    #exist .content{
+        margin-right: 0;
+    }    
 }
