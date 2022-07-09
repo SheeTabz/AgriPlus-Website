@@ -316,6 +316,13 @@ footer>p{
     .rightnav{
        
     }
+    .details{
+       
+       
+        width: 100%;     
+    
+       
+    }
     footer{
         width: 100%;
         margin: auto;  
@@ -346,10 +353,18 @@ footer>p{
     }
 }
 @media screen and (max-width:700px){
+    .cards{
+      justify-content: center;   
+    }
+    #email, #subscribe{
+        padding: 5px;
+        font-size: 1.1rem;
+        font-weight: 650;
+        border: none; 
+    }
+    
     .footDet{
-   
-        
-       width:80%;
+        width: 100%;
        justify-content: space-between;
     }
     footer{
@@ -365,5 +380,11 @@ footer>p{
     }
     .footDet>ul>li{
         padding:20px 0px 10px;
+    }
+    .image>img{
+        min-width: 200px;
+        max-width: 300px;
+        width: 50%;
+
     }
 }
