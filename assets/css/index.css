@@ -362,6 +362,11 @@ footer>p{
         font-size: 1.2rem;
         margin-top: 10px;
     }
+    .rightnav>button{
+        padding: 7px;
+        font-size: 0.9rem;
+        
+    }
     .cards{
       justify-content: center;  
     
@@ -425,5 +430,17 @@ footer>p{
         max-width: 300px;
        
 
+    }
+}
+@media screen and (max-width:630px){
+    nav>ul, .rightnav{
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+    #home>.content, #exist>.content{
+        
+        width: 100%;
+        min-width: 50px;
     }
 }
