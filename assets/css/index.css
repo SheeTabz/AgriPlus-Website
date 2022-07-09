@@ -452,6 +452,7 @@ footer>p{
     }
     .containers{
         width: 100%;
+        margin-top: 0;
        
     }
     .image>img{
@@ -460,5 +461,16 @@ footer>p{
         }
     #exist .content{
         margin-right: 0;
-    }    
+    }  
+    .footDet>ul>li{
+        padding:10px 0px 7px;
+        font-size:small;
+    }  
+    .footerContent{
+        padding: 40px 0px;
+    }
+    .content>h1{
+        font-size: 0.8rem;
+       
+    }
 }
