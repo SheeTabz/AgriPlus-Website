@@ -161,14 +161,17 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 20px;}
-.cardContent{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-
- 
+    margin-top: 20px;
 }
-.cardContent:hover, .ratingCont:hover{
+.cardContent{
+    border: 2px solid rgb(211, 206, 206);
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+.cardContent p, h4{
+    padding: 0px 0px 0px 10px;
+}
+.cardContent:hover, .ratingCont{
     box-shadow: 2px 2px 5px grey;
 }
 .arrow{
@@ -194,6 +197,9 @@ hr {
     justify-content: center;
     padding: 0 0 0 10px;
     
+}
+.ratingCont:hover{
+    box-shadow: 5px 5px 5px rgb(80, 79, 79);
 }
 .stars>.fa{
     font-size: 42px;
@@ -306,7 +312,10 @@ footer>p{
     nav>ul>li, .login{
         margin-right: 30px;
         font-size: 0.8rem;
-    
+    }
+    .ratingCont{
+        
+        margin-top: 20px;
     }
     .logo{
         font-size: 1.4rem;
@@ -330,7 +339,7 @@ footer>p{
         height: 150px;
         
     }
-    /* .details{
+    .details{
         
         display: flex;
         margin-top: -100px; 
@@ -338,15 +347,28 @@ footer>p{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
-    } */
+    }
     .content>h1{
         font-size: 1.5rem;
         font-weight: 900;
     }
 }
 @media screen and (max-width:700px){
+    #home>.content>h1{
+        font-size: 1.5rem;
+    }
+    .content>button{
+        padding: 15px;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
     .cards{
-      justify-content: center;   
+      justify-content: center;  
+    
+    }
+    .cardContent{
+        margin: 5px 10px 5px 0;
+        font-size: 0.9rem;
     }
     #email, #subscribe{
         padding: 5px;
@@ -362,6 +384,23 @@ footer>p{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+    }
+    .ratingCont{
+        height: 300px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    .stars>.fa{
+        font-size: 30px;
+        color: #ED661F;
+    }
+    .ratingCont p{
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    .below span{
+        padding: 0 10px 0 20px;
+        font-weight: 600;
     }
     .footDet{
         width: 100%;
@@ -384,7 +423,7 @@ footer>p{
     .image>img{
         min-width: 200px;
         max-width: 300px;
-        width: 50%;
+       
 
     }
 }
