@@ -75,9 +75,8 @@ nav>button{
     width: 75%;
     margin: auto;
     display: flex;
-   /* max-height: 60%; */
-    /* margin-top: 50px; */
-    
+   /* max-height: 60%;  */
+  margin-top: 50px;
     flex-wrap: wrap-reverse;
 
 }
