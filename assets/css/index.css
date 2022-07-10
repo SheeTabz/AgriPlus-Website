@@ -1,5 +1,8 @@
 /* Primary Color: #ED661F,#FFFFFF,#000000
 Font type: Poppins, Inter */
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -7,14 +10,14 @@ body{
     font-family:  "Poppins",'Inter' ;
 }
 .container{
- 
+   
+    
+   
+    
    height: 85vh;
-    background-image: url("/assets/images/image\ 1.png");
+    background-image: url("../images/image\ 1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
-  
-  
 }
 /* NAV BAR DESIGN */
 nav{
@@ -26,6 +29,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
+    position: fixed;
+    left: 0;
+     right: 0;
+     top: 0;
+     z-index: 2;
+     
+    
 }
 nav>ul{
     display: flex;
@@ -77,11 +87,13 @@ nav>button{
     margin: auto;
     display: flex;
    /* max-height: 60%; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    
     flex-wrap: wrap-reverse;
 
 }
 .content{
+    
     max-width: 650px;
     min-width: 400px;
     margin-right: 30px;
@@ -95,6 +107,12 @@ nav>button{
     font-size: 1.4rem;
     margin-top: 10px;
 }
+#home{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+
+}
 
 /* DETAILS SECTION */
 .details{
@@ -104,6 +122,7 @@ nav>button{
     margin-top: -100px; 
     width: 650px;
     margin-left:54% ;
+   
 
    
 }
@@ -125,6 +144,7 @@ nav>button{
     margin: auto;
     margin-top: 80px;
     flex-wrap: wrap;
+    z-index: 5;
 }
 #exist .content{
     margin-right: 70px;
@@ -477,5 +497,6 @@ footer>p{
         padding: 10px;
         font-size: 0.9rem;
         margin-top: 5px;
+        margin-bottom: 20px;
     }
 }
