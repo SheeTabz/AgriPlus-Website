@@ -69,7 +69,11 @@ li>a:hover, .arrow:hover{
 nav>button{
     margin-right: 30px;
 }
-
+.fa-bars{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
 /* HOME SECTION */
 .containers{
     width: 75%;
@@ -440,7 +444,11 @@ footer>p{
         position: absolute;
         z-index: 1;
     }
-    
+    .fa-bars{
+        display: flex;
+         position: relative;
+        cursor: pointer;
+    }
     #home>.content, #exist>.content{
         width: 100%;
         min-width: 50px;
