@@ -2,7 +2,7 @@
 ***
 
 ## Describtion
-This websites helps farmers country wide to sell and buy products from the best producers
+AgriPlus is an e-commerce web application for agriculture business that helps to manage buying and selling of quality farm products in an easier way from anywhere. The application is user friendly and enables farmers to reach their customers countrywide and viceversa. It also advertises the most popular farm produce and their cost as per the current market price.
 
 ## Demo
 Use the link provided to navigate to the AgriPlus website.
