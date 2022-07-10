@@ -449,6 +449,10 @@ footer>p{
          position: relative;
         cursor: pointer;
     }
+    .detailsCont p{
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
     #home>.content, #exist>.content{
         width: 100%;
         min-width: 50px;
